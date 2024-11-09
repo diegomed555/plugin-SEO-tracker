@@ -1,0 +1,47 @@
+/* Estilo General */
+#seo-performance-dashboard {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#seo-performance-dashboard h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+#seo-performance-dashboard table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#seo-performance-dashboard table th,
+#seo-performance-dashboard table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#seo-performance-dashboard table th {
+    background-color: #0073e6;
+    color: white;
+    font-size: 16px;
+}
+
+#seo-performance-dashboard table td {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Estilo para mensajes de advertencia o error */
+.notice-error {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
